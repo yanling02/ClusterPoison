@@ -8,7 +8,7 @@ The process involves the following steps:
 
 1. **Clustering**: Utilize clustering methods to cluster the original dataset.
 
-2. **Poison Generation**: Employ poisoning attacks to generate poison data from the largest cluster obtained after clustering.
+2. **Poisoning Data Generation**: Employ poisoning attacks to generate poison data from the largest cluster obtained after clustering.
 
 3. **Filtering**: Select a single fake user through filtering.
 
