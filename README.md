@@ -1,11 +1,15 @@
-# Generating Poison Data with RecommPoison after Clustering
+# ClusterPoison
 
-After clustering, RecommPoison is used to generate poison data. The clustered dataset is located in the `dataset` folder.
+It is a Widely Applicable Poisoning Attack Scheme for Recommender Systems
 
-To generate poison data:
+ClusterPoison is a versatile solution applicable to current poisoning attacks targeting Recommender Systems (RS). The objective of this scheme is to maximize the impact of a single fake user.
 
-1. Run `main.py`.
+The process involves the following steps:
 
-2. Afterwards, run `filter` to filter fake users.
+1. **Clustering**: Utilize clustering methods to cluster the original dataset.
 
-Note: RecommPoison generates item sequences of equal length and appends the target item to the end of the sequence. Therefore, the purpose of the filter is to compute the similarity between the embeddings of the generated poison data and the embeddings of all users in the target cluster to identify the user most similar to the target cluster.
+2. **Poison Generation**: Employ poisoning attacks to generate poison data from the largest cluster obtained after clustering.
+
+3. **Filtering**: Select a single fake user through filtering.
+
+Our scheme can be applied to both SeqPoison and RecommPoison. Theoretically, it can also be applied similarly to other poisoning attacks.
