@@ -1,8 +1,8 @@
 # ClusterPoison
 
-It is a Widely Applicable Poisoning Attack Scheme for Recommender Systems
+It is a widely applicable poisoning attack scheme for recommender systems
 
-ClusterPoison is a versatile solution applicable to current poisoning attacks targeting Recommender Systems (RS). The objective of this scheme is to maximize the impact of a single fake user.
+ClusterPoison is a versatile solution applicable to current poisoning attacks targeting RS. The objective of this scheme is to maximize the impact of a single fake user.
 
 The process involves the following steps:
 
