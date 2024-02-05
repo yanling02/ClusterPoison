@@ -17,17 +17,17 @@ Our scheme can be applied to both SeqPoison and RecommPoison. Theoretically, it 
 
 # ClusterPoison Dataset
 
-This repository contains datasets generated using ClusterPoison combined with different poisoning attack methods, as well as model files used for pretraining the target model.
+This repository contains datasets generated using ClusterPoison combined with different poisoning attack methods, as well as model files used for finetuning the pre-trained target model.
 
 ## Dataset Directory Structure
 
-- **ClusterPoison+SeqPoison Dataset**: Contains datasets generated using ClusterPoison combined with SeqPoison. Each original dataset includes one fake user.
+- **ClusterPoison+SeqPoison Dataset**: Contains datasets generated using ClusterPoison combined with SeqPoison. Each dataset includes one fake user.
   - Directory Path: `/ClusterPoison_datasets/ClusterPoison+SeqPoison`
 
-- **ClusterPoison+RecommPoison Dataset**: Contains datasets generated using ClusterPoison combined with RecommPoison. Each original dataset includes one fake user.
-  - Directory Path: `/ClusterPoison_datasets/ClusterPoison+Recomm`
+- **ClusterPoison+RecommPoison Dataset**: Contains datasets generated using ClusterPoison combined with RecommPoison. Each dataset includes one fake user.
+  - Directory Path: `/ClusterPoison_datasets/ClusterPoison+RecommPoison`
 
-- **Baseline Dataset**: Contains datasets generated using baseline methods. Each original dataset includes one fake user.
+- **Baseline Dataset**: Contains datasets generated using baseline methods. Each dataset includes one fake user.
   - Directory Path: `/ClusterPoison_datasets/baseline`
 
 ## Pretrained Model on Target Model
@@ -36,5 +36,5 @@ In the `/Target_model_S3Rec/output` directory, you can find model files pretrain
 
 ## Reproducing Experimental Results
 
-You can use the `/Target_model_S3Rec/run_finetune_sample.py` script to reproduce our experimental results. This script can be used for fine-tuning on the pretrained model.
+You can use the `/Target_model_S3Rec/run_finetune_sample.py` to reproduce our experimental results. This script can be used for fine-tuning on the pretrained model.
 
