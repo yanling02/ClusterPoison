@@ -17,7 +17,7 @@ Our scheme can be applied to both SeqPoison and RecommPoison. Theoretically, it 
 
 # ClusterPoison Dataset
 
-This repository contains datasets generated using ClusterPoison combined with different poisoning attack methods, as well as model files used for finetuning the pre-trained target model.
+This repository contains datasets generated using ClusterPoison combined with different poisoning attack methods, as well as corresponding model files used for finetuning the pre-trained target model.
 
 ## Dataset Directory Structure
 
