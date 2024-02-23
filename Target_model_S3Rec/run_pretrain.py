@@ -21,7 +21,7 @@ def main():
 
     parser.add_argument('--data_dir', default='./data/', type=str)
     parser.add_argument('--output_dir', default='output/', type=str)
-    parser.add_argument('--data_name', default='Beauty', type=str)
+    parser.add_argument('--data_name', default='Beauty_RecommPoison', type=str)
 
     # model args
     parser.add_argument("--model_name", default='Pretrain', type=str)
