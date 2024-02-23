@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/4/25 16:01
-# @Author  : Hui Wang
+
 
 import numpy as np
 import random
