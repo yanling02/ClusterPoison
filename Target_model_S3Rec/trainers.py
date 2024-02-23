@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/3/30 11:06
-# @Author  : Hui Wang
+
 
 import numpy as np
 import tqdm
