@@ -22,9 +22,9 @@ def main():
     parser.add_argument('--data_dir', default='./data/', type=str)
     parser.add_argument('--output_dir', default='output/', type=str)
     parser.add_argument('--dataset', default='Beauty', type=str)
-    parser.add_argument('--data_name', default='Beauty', type=str)
+    parser.add_argument('--data_name', default='Beauty_RecommPoison', type=str)
     parser.add_argument('--do_eval', action='store_true')
-    parser.add_argument('--ckp', default=10, type=int, help="pretrain epochs 10, 20, 30...")
+    parser.add_argument('--ckp', default=200, type=int, help="pretrain epochs 10, 20, 30...")
 
     # model args
     parser.add_argument("--model_name", default='Finetune_sample', type=str)
